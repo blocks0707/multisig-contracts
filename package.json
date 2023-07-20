@@ -1,0 +1,23 @@
+{
+  "name": "multisig-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-hdwallet-provider-klaytn": "^1.4.2"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "1.2.6",
+    "truffle": "5.3.0"
+  }
+}
